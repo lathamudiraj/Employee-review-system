@@ -1,0 +1,54 @@
+.mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.mainContainer .formInput {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  align-items: center;
+  width: 40%;
+  height: 70%;
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+}
+.mainContainer .formInput h1 {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+}
+.mainContainer .formInput form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer .formInput form input {
+  width: 18rem;
+  margin: 0.6rem;
+  font-size: 1rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 1rem;
+}
+.mainContainer .formInput form .button .submitButton button {
+  font-size: 1rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: lightgray;
+}
+.mainContainer .formInput form .button .submitButton button:hover {
+  background-color: gray;
+}
+.mainContainer .formInput .extraStuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainContainer .formInput .extraStuff .forgetPassword {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}

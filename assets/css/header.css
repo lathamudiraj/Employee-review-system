@@ -1,0 +1,51 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  background-color: rgb(57, 145, 145);
+  margin: 0;
+  padding: 0;
+  height: 4rem;
+  justify-content: space-between;
+}
+.navBar .li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+.navBar .li span {
+  margin-right: 2rem;
+  font-size: 1.2rem;
+}
+.navBar .li span i {
+  margin-right: 0.2rem;
+}
+.navBar .nameOfApp a {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+.navBar .nameOfApp a img {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+  margin-right: 0.4rem;
+}
+.navBar .notLogIn {
+  display: flex;
+}
+.navBar .notLogIn ul {
+  display: flex;
+}
+.navBar .notLogIn ul li {
+  margin-right: 2rem;
+  list-style: none;
+}
+.navBar .notLogIn ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+}
